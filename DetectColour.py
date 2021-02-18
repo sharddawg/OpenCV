@@ -3,7 +3,7 @@ import numpy as np
 
 
 # This function is used as an argument in the createTrackbar function.
-# Just ratta for now.
+# Just rote for now.
 def empty(x):
     pass
 
@@ -20,7 +20,7 @@ cv2.resizeWindow("trackbar", 400, 300)
 # here we created 6 sliders.
 # hue minimum, hue maximum, saturation minimum, saturation maximum, value minimum, value maximum.
 # max value for hue is 179. Max value for saturation and value is 255.
-# Again just ratta for now.
+# Again just rote for now.
 # Here, 0, 168, 79, 255, 141, 255 are values we obtained after manipulating the trackbar values of h_min, h_max etc.
 # We manipulated the values till the particular colour we wanted was white in our mask image.
 cv2.createTrackbar("hue min", "trackbar", 0, 179, empty)
